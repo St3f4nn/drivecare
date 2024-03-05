@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss_project_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/css/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-debug-screens": "^2.2.1"
+  }
+}
