@@ -33,7 +33,7 @@
   </head>
   <body class="text-gray-900 debug-screens font-robotocondensed">
     <!-- Header -->
-    <header class="sticky top-0">
+    <header class="sticky top-0 z-30">
       <!-- Header upper -->
       <div class="bg-white">
         <div class="container flex items-center justify-between py-4">
@@ -91,8 +91,8 @@
         </div>
       </div>
       <!-- Header lower -->
-      <div class="py-4 bg-gray-100 md:py-0 header-lower">
-        <div class="container flex items-center justify-between">
+      <div class="bg-gray-100 header-lower">
+        <div class="container flex items-center justify-between py-4 md:py-0">
           <!-- Navigation menu -->
           <nav
             class="absolute left-0 w-full transition-all duration-200 -translate-y-full bg-gray-900 top-full -z-10 md:bg-transparent md:w-auto md:relative md:top-auto md:left-auto md:translate-y-0 md:z-auto"
@@ -171,16 +171,27 @@
     <!-- Main content -->
     <main>
       <!-- Hero section -->
-      <section>
-        <div class="container">
+      <section
+        class="bg-center bg-no-repeat bg-cover bg-carmechanicworking relative before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-gray-900 before:bg-opacity-90 before:z-10 md:before:bg-transparent md:before:bg-overlay"
+      >
+        <div class="container relative z-20 py-28 md:py-44 xl:py-60">
           <!-- Hero section text box -->
-          <div>
-            <h1>Your reliable solution for all your vehicle repairs.</h1>
-            <div>
-              <a href="mailto:office@drivecare.com">Book an appointment</a>
-              <a href="tel:+(4321) 0987-654-320">
+          <div class="md:max-w-3xl xl:max-w-4xl">
+            <h1 class="text-gray-100">
+              Your reliable solution for all your vehicle repairs.
+            </h1>
+            <div
+              class="flex flex-col items-center gap-4 mt-16 text-center md:flex-row md:text-left"
+            >
+              <a href="mailto:office@drivecare.com" class="cta"
+                >Book an appointment</a
+              >
+              <a
+                href="tel:+(4321) 0987-654-320"
+                class="text-base font-normal text-gray-100 md:text-lg"
+              >
                 or call us:
-                <div>(4321) 0987-654-320</div>
+                <div class="font-bold">(4321) 0987-654-320</div>
               </a>
             </div>
           </div>

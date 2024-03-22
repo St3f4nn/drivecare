@@ -744,6 +744,14 @@ p {
   z-index: 20;
 }
 
+.z-30 {
+  z-index: 30;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .block {
   display: block;
 }
@@ -793,6 +801,10 @@ p {
   gap: 0.5rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .scroll-smooth {
   scroll-behavior: smooth;
 }
@@ -812,6 +824,22 @@ p {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-carmechanicworking {
+  background-image: url('/dist/assets/images/car_mechanic_working.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .fill-gray-900 {
   fill: #111827;
 }
@@ -826,9 +854,18 @@ p {
   padding-bottom: 0.25rem;
 }
 
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-robotocondensed {
@@ -843,6 +880,10 @@ p {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .font-normal {
@@ -871,6 +912,40 @@ p {
 
 .duration-200 {
   transition-duration: 200ms;
+}
+
+.cta {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+  --tw-shadow: inset 0 0 0 0.125rem #f3f4f6;
+  --tw-shadow-colored: inset 0 0 0 0.125rem var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.cta:hover {
+  background-color: transparent;
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1280px) {
+  .cta {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 .before\:absolute::before {
@@ -908,10 +983,26 @@ p {
   width: 0px;
 }
 
+.before\:w-full::before {
+  content: var(--tw-content);
+  width: 100%;
+}
+
 .before\:bg-gray-100::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.before\:bg-gray-900::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.before\:bg-opacity-90::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 0.9;
 }
 
 .before\:transition-all::before {
@@ -978,6 +1069,10 @@ p {
     width: auto;
   }
 
+  .md\:max-w-3xl {
+    max-width: 48rem;
+  }
+
   .md\:translate-y-0 {
     --tw-translate-y: 0px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1010,6 +1105,20 @@ p {
     padding-bottom: 0.5rem;
   }
 
+  .md\:py-44 {
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .md\:text-inherit {
     color: inherit;
   }
@@ -1020,6 +1129,28 @@ p {
     background-color: rgb(17 24 39 / var(--tw-bg-opacity));
   }
 
+  .md\:before\:bg-transparent::before {
+    content: var(--tw-content);
+    background-color: transparent;
+  }
+
+  .md\:before\:bg-gradient-to-r::before {
+    content: var(--tw-content);
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .md\:before\:bg-overlay::before {
+    content: var(--tw-content);
+    background-image: linear-gradient(90deg, rgba(17, 24, 39, 1) 0%, rgba(17, 24, 39, 0.75) 25%, rgba(17, 24, 39, 0.5) 50%, rgba(17, 24, 39, 0.25) 75%, rgba(17, 24,39, 0) 100%);
+  }
+
+  .md\:before\:from-gray-900::before {
+    content: var(--tw-content);
+    --tw-gradient-from: #111827 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(17 24 39 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+
   .md\:hover\:text-gray-100:hover {
     --tw-text-opacity: 1;
     color: rgb(243 244 246 / var(--tw-text-opacity));
@@ -1027,6 +1158,10 @@ p {
 }
 
 @media (min-width: 1280px) {
+  .xl\:max-w-4xl {
+    max-width: 56rem;
+  }
+
   .xl\:gap-8 {
     gap: 2rem;
   }
@@ -1039,5 +1174,10 @@ p {
   .xl\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .xl\:py-60 {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
   }
 }
