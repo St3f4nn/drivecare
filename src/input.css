@@ -32,15 +32,15 @@
     @apply text-base text-center md:text-left xl:text-lg;
   }
 
-  header.open #toggle-menu-btn #hamburger-icon {
+  .header-lower.open #toggle-menu-btn #hamburger-icon {
     @apply hidden;
   }
 
-  header.open #toggle-menu-btn #close-icon {
+  .header-lower.open #toggle-menu-btn #close-icon {
     @apply inline;
   }
 
-  header.open #nav-menu {
+  .header-lower.open #nav-menu {
     @apply translate-y-0;
   }
 }

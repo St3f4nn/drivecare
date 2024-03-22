@@ -546,6 +546,19 @@ p {
   }
 }
 
+.header-lower.open #toggle-menu-btn #hamburger-icon {
+  display: none;
+}
+
+.header-lower.open #toggle-menu-btn #close-icon {
+  display: inline;
+}
+
+.header-lower.open #nav-menu {
+  --tw-translate-y: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
