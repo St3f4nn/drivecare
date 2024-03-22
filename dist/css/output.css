@@ -1027,6 +1027,11 @@ p {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .hover\:before\:w-full:hover::before {
   content: var(--tw-content);
   width: 100%;
@@ -1134,21 +1139,9 @@ p {
     background-color: transparent;
   }
 
-  .md\:before\:bg-gradient-to-r::before {
-    content: var(--tw-content);
-    background-image: linear-gradient(to right, var(--tw-gradient-stops));
-  }
-
   .md\:before\:bg-overlay::before {
     content: var(--tw-content);
     background-image: linear-gradient(90deg, rgba(17, 24, 39, 1) 0%, rgba(17, 24, 39, 0.75) 25%, rgba(17, 24, 39, 0.5) 50%, rgba(17, 24, 39, 0.25) 75%, rgba(17, 24,39, 0) 100%);
-  }
-
-  .md\:before\:from-gray-900::before {
-    content: var(--tw-content);
-    --tw-gradient-from: #111827 var(--tw-gradient-from-position);
-    --tw-gradient-to: rgb(17 24 39 / 0) var(--tw-gradient-to-position);
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   }
 
   .md\:hover\:text-gray-100:hover {
