@@ -14,14 +14,14 @@ module.exports = {
 
         // Images
 
-        carmechanicworking:
-          "url('/dist/assets/images/car_mechanic_working.jpg')",
+        "car-mechanic-working":
+          "url('../assets/images/car_mechanic_working.jpg')",
       },
       boxShadow: {
-        ctabtn: "inset 0 0 0 0.125rem #f3f4f6",
+        "cta-btn": "inset 0 0 0 0.125rem #f3f4f6",
       },
       fontFamily: {
-        robotocondensed: "'Roboto Condensed', sans-serif",
+        "roboto-condensed": "'Roboto Condensed', sans-serif",
       },
     },
   },

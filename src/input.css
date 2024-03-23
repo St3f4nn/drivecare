@@ -53,6 +53,6 @@
 
 @layer utilities {
   .cta {
-    @apply px-8 py-4 text-base font-normal text-gray-900 uppercase transition-all duration-200 bg-gray-100 hover:text-gray-100 hover:bg-transparent xl:text-lg shadow-ctabtn;
+    @apply px-8 py-4 text-base font-normal text-gray-900 uppercase transition-all duration-200 bg-gray-100 hover:text-gray-100 hover:bg-transparent xl:text-lg shadow-cta-btn;
   }
 }

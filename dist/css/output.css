@@ -824,8 +824,8 @@ p {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-carmechanicworking {
-  background-image: url('/dist/assets/images/car_mechanic_working.jpg');
+.bg-car-mechanic-working {
+  background-image: url('../assets/images/car_mechanic_working.jpg');
 }
 
 .bg-cover {
@@ -868,7 +868,7 @@ p {
   text-align: center;
 }
 
-.font-robotocondensed {
+.font-roboto-condensed {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
