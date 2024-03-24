@@ -38,7 +38,7 @@
       <div class="bg-white">
         <div class="container flex items-center justify-between py-4">
           <!-- Logo -->
-          <div>
+          <a href="#">
             <!-- Logo desktop -->
             <img
               src="./assets/images/logos/logo_desktop_dark.svg"
@@ -51,7 +51,7 @@
               alt="DriveCare logo"
               class="max-w-8 md:hidden"
             />
-          </div>
+          </a>
           <!-- Contact info -->
           <div class="flex items-center md:gap-5 xl:gap-8">
             <!-- Phone number -->
@@ -62,7 +62,7 @@
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                class="h-5 fill-gray-900"
+                class="flex-shrink-0 h-5 fill-gray-900"
               >
                 <path
                   d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
@@ -79,7 +79,7 @@
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
-                class="h-5 fill-gray-900"
+                class="flex-shrink-0 h-5 fill-gray-900"
               >
                 <path
                   d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
@@ -117,7 +117,7 @@
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#about-us"
                   class="relative block md:inline-block text-base font-normal transition-all duration-200 px-6 py-1 md:py-2 md:px-4 xl:py-4 xl:px-8 md:hover:text-gray-100 before:content-[''] before:block before:absolute before:top-0 before:left-0 before:h-full before:w-0 md:before:bg-gray-900 before:transition-all before:duration-200 hover:before:w-full before:z-10 capitalize text-gray-100 md:text-inherit hover:text-gray-900 before:bg-gray-100"
                 >
                   <span class="relative z-20">about us</span></a
@@ -134,7 +134,7 @@
             </ul>
           </nav>
           <!-- Toggle menu button -->
-          <button class="flex md:hidden" id="toggle-menu-btn">
+          <button class="flex flex-shrink-0 md:hidden" id="toggle-menu-btn">
             <!-- Hamburger icon -->
             <img
               src="./assets/images/icons/hamburger_icon.svg"
@@ -157,7 +157,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="h-5 fill-gray-900"
+              class="flex-shrink-0 h-5 fill-gray-900"
             >
               <path
                 d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
@@ -198,14 +198,20 @@
         </div>
       </section>
       <!-- About us section -->
-      <section>
-        <div class="container">
+      <section id="about-us">
+        <div
+          class="container grid items-center grid-cols-1 gap-16 md:grid-cols-2 md:gap-20 xl:gap-24 py-28 md:py-36 xl:py-44"
+        >
           <!-- About us section image box -->
-          <div></div>
+          <div
+            class="bg-center bg-no-repeat bg-cover bg-car-engine min-h-64 md:min-h-72 xl:min-h-96"
+            role="img"
+            aria-label="Car engine"
+          ></div>
           <!-- About us section text box -->
-          <div>
+          <div class="row-start-1 md:row-auto">
             <h2>Your needs, our focus</h2>
-            <div>
+            <div class="paragraph-box">
               <p>
                 Our company is dedicated to providing top-notch vehicle repair
                 and maintenance services. With an experienced team of mechanics

@@ -55,4 +55,8 @@
   .cta {
     @apply px-8 py-4 text-base font-normal text-gray-900 uppercase transition-all duration-200 bg-gray-100 hover:text-gray-100 hover:bg-transparent xl:text-lg shadow-cta-btn;
   }
+
+  .paragraph-box {
+    @apply flex flex-col gap-6 mt-10 md:gap-8 md:mt-12 xl:mt-14 xl:pr-20;
+  }
 }
