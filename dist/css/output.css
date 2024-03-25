@@ -788,12 +788,12 @@ p {
   height: 1.25rem;
 }
 
-.h-8 {
-  height: 2rem;
+.h-6 {
+  height: 1.5rem;
 }
 
-.h-7 {
-  height: 1.75rem;
+.h-8 {
+  height: 2rem;
 }
 
 .min-h-64 {
@@ -829,6 +829,10 @@ p {
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -851,6 +855,10 @@ p {
 
 .gap-9 {
   gap: 2.25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .scroll-smooth {
@@ -1114,6 +1122,10 @@ p {
   width: 100%;
 }
 
+.group:hover .group-hover\:fill-gray-100 {
+  fill: #f3f4f6;
+}
+
 @media (min-width: 768px) {
   .md\:relative {
     position: relative;
@@ -1212,6 +1224,10 @@ p {
     gap: 2rem;
   }
 
+  .md\:gap-12 {
+    gap: 3rem;
+  }
+
   .md\:bg-transparent {
     background-color: transparent;
   }
@@ -1293,6 +1309,10 @@ p {
     height: 3rem;
   }
 
+  .xl\:h-7 {
+    height: 1.75rem;
+  }
+
   .xl\:min-h-96 {
     min-height: 24rem;
   }
@@ -1311,6 +1331,10 @@ p {
 
   .xl\:gap-8 {
     gap: 2rem;
+  }
+
+  .xl\:gap-14 {
+    gap: 3.5rem;
   }
 
   .xl\:px-8 {
