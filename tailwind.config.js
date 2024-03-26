@@ -17,6 +17,7 @@ module.exports = {
         "car-mechanic-working":
           "url('../assets/images/car_mechanic_working.jpg')",
         "car-engine": "url('../assets/images/car_engine.jpg')",
+        "car-in-garage": "url('../assets/images/car_in_garage.jpg')",
       },
       boxShadow: {
         "cta-btn": "inset 0 0 0 0.125rem #f3f4f6",

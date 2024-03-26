@@ -29,7 +29,7 @@
   }
 
   p {
-    @apply text-base text-center md:text-left xl:text-lg;
+    @apply text-base font-normal text-center md:text-left xl:text-lg;
   }
 
   .header-lower.open #toggle-menu-btn #hamburger-icon {

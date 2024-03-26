@@ -531,6 +531,7 @@ p {
   text-align: center;
   font-size: 1rem;
   line-height: 1.5rem;
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {
@@ -804,6 +805,10 @@ p {
   min-height: 16rem;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -811,6 +816,10 @@ p {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
 }
 
 .max-w-40 {
@@ -870,6 +879,10 @@ p {
   scroll-behavior: smooth;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -885,12 +898,20 @@ p {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-90 {
+  --tw-bg-opacity: 0.9;
+}
+
 .bg-car-engine {
   background-image: url('../assets/images/car_engine.jpg');
 }
 
 .bg-car-mechanic-working {
   background-image: url('../assets/images/car_mechanic_working.jpg');
+}
+
+.bg-car-in-garage {
+  background-image: url('../assets/images/car_in_garage.jpg');
 }
 
 .bg-cover {
@@ -907,6 +928,10 @@ p {
 
 .fill-gray-900 {
   fill: #111827;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-6 {
@@ -929,12 +954,21 @@ p {
   padding-bottom: 1rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
 
 .font-roboto-condensed {
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
 }
 
 .text-base {
@@ -947,14 +981,9 @@ p {
   line-height: 1.25rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -981,6 +1010,10 @@ p {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .transition-all {
@@ -1247,6 +1280,10 @@ p {
     background-color: transparent;
   }
 
+  .md\:p-20 {
+    padding: 5rem;
+  }
+
   .md\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1332,6 +1369,10 @@ p {
     min-height: 24rem;
   }
 
+  .xl\:w-12 {
+    width: 3rem;
+  }
+
   .xl\:max-w-4xl {
     max-width: 56rem;
   }
@@ -1370,5 +1411,15 @@ p {
   .xl\:py-60 {
     padding-top: 15rem;
     padding-bottom: 15rem;
+  }
+
+  .xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .xl\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
