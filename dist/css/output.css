@@ -801,12 +801,20 @@ p {
   height: 2rem;
 }
 
-.h-96 {
-  height: 24rem;
+.h-16 {
+  height: 4rem;
+}
+
+.max-h-16 {
+  max-height: 4rem;
 }
 
 .min-h-64 {
   min-height: 16rem;
+}
+
+.min-h-16 {
+  min-height: 4rem;
 }
 
 .w-10 {
@@ -820,6 +828,10 @@ p {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .max-w-2xl {
@@ -855,8 +867,16 @@ p {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -881,6 +901,10 @@ p {
 
 .gap-9 {
   gap: 2.25rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .scroll-smooth {
@@ -936,18 +960,6 @@ p {
 
 .fill-gray-900 {
   fill: #111827;
-}
-
-.fill-stone-100 {
-  fill: #f5f5f4;
-}
-
-.fill-red-500 {
-  fill: #ef4444;
-}
-
-.fill-red-600 {
-  fill: #dc2626;
 }
 
 .p-10 {
@@ -1192,6 +1204,12 @@ p {
 
 .group:hover .group-hover\:fill-gray-100 {
   fill: #f3f4f6;
+}
+
+@media (min-width: 640px) {
+  .sm\:flex-row {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 768px) {
