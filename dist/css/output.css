@@ -789,6 +789,10 @@ p {
   display: none;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .h-5 {
   height: 1.25rem;
 }
@@ -801,20 +805,8 @@ p {
   height: 2rem;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
-.max-h-16 {
-  max-height: 4rem;
-}
-
 .min-h-64 {
   min-height: 16rem;
-}
-
-.min-h-16 {
-  min-height: 4rem;
 }
 
 .w-10 {
@@ -828,10 +820,6 @@ p {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .max-w-2xl {
@@ -887,6 +875,10 @@ p {
   gap: 2.5rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-16 {
   gap: 4rem;
 }
@@ -901,10 +893,6 @@ p {
 
 .gap-9 {
   gap: 2.25rem;
-}
-
-.gap-12 {
-  gap: 3rem;
 }
 
 .scroll-smooth {
